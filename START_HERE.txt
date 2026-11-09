@@ -1,0 +1,13 @@
+THIS IS THE ORIGINAL DARK / GOLD PORTFOLIO DESIGN, UPDATED.
+
+All images, company logos, fonts, CSS, JavaScript and editable source are inside this ZIP.
+
+1. Extract this ZIP.
+2. Upload its CONTENTS to your GitHub repository.
+3. Keep index.html at the TOP LEVEL beside the assets folder.
+4. GitHub repository > Settings > Pages > Deploy from a branch > main > /(root) > Save.
+
+You do not need to build the website first. The ready-built version is included.
+For editing and rebuilding later, see README.md and the source folder.
+
+This package is ready for you to publish. It does not change your existing Lovable or GitHub site automatically.
