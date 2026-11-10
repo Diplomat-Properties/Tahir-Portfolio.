@@ -8,11 +8,11 @@
 | First role | Black Pool General Trading — Sales Representative |
 | Business Link Consultancies | Proprietor |
 | Diplomat Properties | Proprietor |
-| Faiza Saqlain Ready Made Garments | Sales Director & Partner; a main company tab |
-| Rise Properties LLC | Director & Partner |
-| Rise Properties LLC — Branch | Director & Partner; separate company tab |
-| Trading business | Diplomat Trading LLC |
-| Transport business | Business Link Transport LLC |
+| Faiza Saqlain Ready Made Garments | Director & Partner; a main company tab |
+| Rise Properties LLC | Managing Director & Owner |
+| Rise Properties LLC — Branch | Managing Director & Owner; separate company tab |
+| Trading business | Diplomat General Trading LLC |
+| Transport business | Dubai Link Transport LLC |
 | Education and qualifications | Omitted |
 | Email | tahirbaig77@gmail.com |
 | Telephone / WhatsApp | +971 55 515 1350 |
