@@ -11,14 +11,14 @@ export const enterprises = [
     areas: ["Sales", "Leasing", "Property management"],
   },
   {
-    id: "rise", number: "02", name: "Rise Properties LLC", shortName: "Rise Properties", role: "Director & Partner", period: "June 2024 – Present", logo: riseLogo.url, logoKind: "rise",
+    id: "rise", number: "02", name: "Rise Properties LLC", shortName: "Rise Properties", role: "Managing Director & Owner", period: "June 2024 – Present", logo: riseLogo.url, logoKind: "rise",
     category: "Real estate", description: "A broader perspective on property.",
     summary: "Residential, commercial and mixed-use property, with direct involvement in acquisitions, leasing and sales.",
     details: ["Property acquisitions, leasing and sales", "Financial planning and business direction", "Team leadership and operational oversight"],
     areas: ["Residential", "Commercial", "Mixed-use"],
   },
   {
-    id: "branch", number: "03", name: "Rise Properties LLC — Branch", shortName: "Rise Properties · Branch", role: "Director & Partner", period: "September 2025 – Present", logo: riseLogo.url, logoKind: "rise",
+    id: "branch", number: "03", name: "Rise Properties LLC — Branch", shortName: "Rise Properties · Branch", role: "Managing Director & Owner", period: "September 2025 – Present", logo: riseLogo.url, logoKind: "rise",
     category: "Business expansion", description: "The next chapter for Rise.",
     summary: "A branch of Rise Properties LLC, expanding the company's operations from September 2025.",
     details: ["An extension of Rise Properties LLC's operations", "Part of the same real estate business", "Continuity in management and team leadership"],
@@ -32,7 +32,7 @@ export const enterprises = [
     areas: ["Business setup", "PRO services", "HR consultancy"],
   },
   {
-    id: "faiza", number: "05", name: "Faiza Saqlain Ready Made Garments", shortName: "Faiza Saqlain", role: "Sales Director & Partner", period: "February 2024 – Present", logo: "./assets/logos/faiza-saqlain.png", logoKind: "faiza",
+    id: "faiza", number: "05", name: "Faiza Saqlain Ready Made Garments", shortName: "Faiza Saqlain", role: "Director & Partner", period: "February 2024 – Present", logo: "./assets/logos/faiza-saqlain.png", logoKind: "faiza",
     category: "Fashion & retail", description: "A distinct perspective on fashion and enterprise.",
     summary: "Sales direction and partnership in the ready-made garments business, with a focus on commercial growth and lasting customer relationships.",
     details: ["Sales leadership and business development", "Partner-level involvement in business direction", "Customer relationships and team coordination"],
