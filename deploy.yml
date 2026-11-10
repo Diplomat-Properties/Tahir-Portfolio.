@@ -1,0 +1,52 @@
+name: Build and publish portfolio
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: source/package-lock.json
+      - uses: actions/configure-pages@v5
+      - name: Install dependencies
+        working-directory: source
+        run: npm ci
+      - name: Build latest source
+        working-directory: source
+        run: npm run build
+      - name: Keep uploaded portrait and logos
+        run: |
+          cp -a assets/images/. source/dist/assets/images/
+          cp -a assets/logos/. source/dist/assets/logos/
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: source/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish website
+        id: deployment
+        uses: actions/deploy-pages@v4
