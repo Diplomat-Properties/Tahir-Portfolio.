@@ -12,14 +12,14 @@ const PHONE = "+971 55 515 1350";
 const WA = "https://wa.me/971555151350";
 const timeline = [
   ["1997", "Black Pool General Trading", "Sales Representative", "March 1997 – June 2008"],
-  ["2004", "Diplomat Trading LLC", "Director & Partner", "April 2004 – June 2016"],
-  ["2005", "Business Link Transport LLC", "Director & Partner", "October 2005 – June 2017"],
+  ["2004", "Diplomat General Trading LLC", "Director & Partner", "April 2004 – June 2016"],
+  ["2005", "Dubai Link Transport LLC", "Director & Partner", "October 2005 – June 2017"],
   ["2009", "Shahnawaz Tourism LLC", "Director & Partner", "November 2009 – November 2011"],
   ["2011", "Business Link Consultancies", "Proprietor", "March 2011 – Present"],
   ["2013", "Diplomat Properties", "Proprietor", "2013 – Present"],
-  ["2024", "Faiza Saqlain Ready Made Garments", "Sales Director & Partner", "February 2024 – Present"],
-  ["2024", "Rise Properties LLC", "Director & Partner", "June 2024 – Present"],
-  ["2025", "Rise Properties LLC — Branch", "Director & Partner", "September 2025 – Present"],
+  ["2024", "Faiza Saqlain Ready Made Garments", "Director & Partner", "February 2024 – Present"],
+  ["2024", "Rise Properties LLC", "Managing Director & Owner", "June 2024 – Present"],
+  ["2025", "Rise Properties LLC — Branch", "Managing Director & Owner", "September 2025 – Present"],
 ];
 export default function Portfolio() {
   const [activeEnterprise, setActiveEnterprise] = useState("diplomat");
