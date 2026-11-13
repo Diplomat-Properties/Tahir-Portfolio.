@@ -17,7 +17,7 @@ const timeline = [
   ["2009", "Shahnawaz Tourism LLC", "Director & Partner", "November 2009 – November 2011"],
   ["2011", "Business Link Consultancies", "Proprietor", "March 2011 – Present"],
   ["2013", "Diplomat Properties", "Proprietor", "2013 – Present"],
-  ["2021", "Business Link Consultancies UK LTD", "Proprietor", "August 2021 - Present"],
+  ["2021", "Business Link Consultancies UK LTD", "Proprietor", "August 2021 – Present"],
   ["2024", "Faiza Saqlain Ready Made Garments", "Director & Partner", "February 2024 – Present"],
   ["2024", "Rise Properties LLC", "Managing Director & Owner", "June 2024 – Present"],
   ["2025", "Rise Properties LLC — Branch", "Managing Director & Owner", "September 2025 – Present"],
